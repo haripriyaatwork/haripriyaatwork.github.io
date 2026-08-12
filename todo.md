@@ -268,3 +268,15 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Replace the Resume Evidence & Context area with a Content, Strategy & Direction archive link.
 - [x] Add `/work#strategy` hash handling so the Work page opens the Strategy filter and scrolls to the archive.
 - [x] Validate the interlink with the project check script, production build, and Resume/Work screenshots.
+
+
+- [ ] Move the Content, Strategy & Direction interlink from Resume to Results beneath the pink results box.
+- [ ] Remove the obsolete “Evidence & Context to be provided” text from Results.
+- [ ] Replace the Home orbit portrait with a simple circular photo treatment after the user supplies the LinkedIn screenshot.
+- [ ] Validate Results and Home layouts after the redesign.
+
+
+- [x] Move the Content, Strategy & Direction interlink to Results beneath the metric story.
+- [x] Remove the obsolete “Evidence & Context to be provided” placeholder.
+- [x] Replace the Home orbit composition with a burgundy circular portrait, secondary orbit lines, and Storyteller, Poet, and Communicator labels.
+- [x] Validate the Results and Home desktop presentation with the project check, production build, and screenshots.
