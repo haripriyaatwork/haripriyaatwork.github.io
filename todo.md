@@ -131,3 +131,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add “The Future of Print Media” under Work → Academics with open and download actions.
 - [x] Preserve the supplied PDF without altering its contents.
 - [x] Validate the Academic article card and PDF access before checkpoint.
+
+- [x] Upload InterviewArticleOfRJAtiqAssignmentByHaripriyaMishraMJMC1.pdf as a persistent web asset.
+- [x] Add the RJ Atiq interview article assignment under Work as an interview-writing artifact with open and download actions.
+- [x] Preserve the supplied PDF without altering its contents.
+- [x] Validate the interview article card and PDF access before checkpoint.
