@@ -62,3 +62,10 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add click-to-expand behavior with accessible buttons and full existing content inside each card.
 - [x] Preserve paragraph formatting, bold highlights, quotes, and no em dashes in expanded content.
 - [x] Validate desktop landscape, mobile stacking, keyboard interaction, and save a checkpoint.
+
+- [x] Verify Padmanabhan website and classify scope as initial website style/design, copy, and SEO.
+- [x] Verify Upix website and classify scope as SEO.
+- [x] Record Nalawade Insurance Consultancy as unreleased website work without inventing a live URL.
+- [x] Verify the supplied Instagram carousel link and attach it to the relevant design/writing archive entry.
+- [x] Add the supplied essay “The Aesthetics of Obedience” to Thinking with its full text or excerpt and source link.
+- [x] Validate archive links and responsive cards before checkpoint.
