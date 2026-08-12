@@ -329,3 +329,19 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Recenter the full face and head within the burgundy circle based on the supplied screenshot.
 - [x] Preserve the torso-only crop and keep the five labels clear of the face and headline.
 - [x] Validate the centered portrait with the project check, production build, and Home screenshot.
+
+
+- [ ] Link Poet to the Thinking poems archive.
+- [ ] Link Storyteller to the Bhagla audio entry under Work → Other.
+- [ ] Link Communicator to the Work archive.
+- [ ] Link Researcher to the supplied research proposal.
+- [ ] Link Strategist to the Content, Strategy & Direction archive.
+- [ ] Preserve pink hover/selected interaction styling and validate every destination.
+
+
+- [x] Link Poet to the Thinking poems archive.
+- [x] Link Storyteller to the Bhagla audio entry under Work → Other.
+- [x] Link Communicator to the Work archive.
+- [x] Link Researcher to the supplied research proposal.
+- [x] Link Strategist to the Content, Strategy & Direction archive.
+- [x] Preserve pink hover/selected interaction styling and validate every destination with build and screenshots.
