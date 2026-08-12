@@ -205,3 +205,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Keep the updated chronological order and selectable role detail.
 - [x] Prevent stop labels from overlapping, especially nearby roles.
 - [x] Validate the revised timeline and build before checkpoint.
+
+- [x] Group the supplied Resume skills into clear categories.
+- [x] Replace the undifferentiated skill cloud with a stronger visual hierarchy.
+- [x] Preserve all supplied skills while improving scanability.
+- [x] Validate the redesigned Skills section and build before checkpoint.
