@@ -101,3 +101,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add a large centered pink finger-tap symbol and “Click to see” to Design cards.
 - [x] Preserve direct click-through links to the original Instagram posts and Reels.
 - [x] Validate overlay visibility, hover states, and responsive layout before checkpoint.
+
+- [x] Remove Instagram fallback link copy from all Design and Video embed frames.
+- [x] Remove the extra project-title and work-to-be-added placeholder block from Design and Video sections.
+- [x] Preserve centered pink Click to see and Click to play overlays and direct links.
+- [x] Validate the cleaned archive sections before checkpoint.
