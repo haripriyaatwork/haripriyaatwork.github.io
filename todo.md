@@ -8,3 +8,8 @@
 - [x] Add skeleton pages for Who I Am, Work, Thinking, Results, Resume, and Connect.
 - [x] Preserve dark black/white/pink banner-inspired styling, responsive layout, interactions, motion, and empty states.
 - [x] Validate TypeScript/build and capture representative screenshots before delivery.
+- [x] Add verified resume data from the supplied resume source.
+- [x] Add a downloadable resume PDF asset and accessible preview/open action.
+- [x] Replace placeholder career stops with verified experience and education stops.
+- [x] Add clickable stop details and responsive vertical mobile route.
+- [x] Revalidate build, PDF access, and map interactions.
