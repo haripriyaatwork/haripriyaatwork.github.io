@@ -250,3 +250,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Enlarge the portrait slightly while keeping the face centered in the inner orbit.
 - [x] Preserve orbit visibility and the POET balance.
 - [x] Validate the revised Home hero and build before checkpoint.
+
+- [x] Enlarge the portrait to fill the user-marked inner white-frame scale.
+- [x] Keep the face centered, torso crop intact, and orbit lines visible.
+- [x] Validate the enlarged Home hero and build before checkpoint.
