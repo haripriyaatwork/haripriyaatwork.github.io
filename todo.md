@@ -234,3 +234,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Place the portrait as a full cutout-style Home hero image around the communicator and strategist labels.
 - [x] Preserve the orbit lines and avoid a rectangular portrait container.
 - [x] Validate the Home hero and build before checkpoint.
+
+- [x] Center the portrait’s face within the orbit and scale the portrait to the orbit’s visual size.
+- [x] Shorten the visible portrait at the palm while keeping the orbit fully visible.
+- [x] Remove Student and Journalist from the Home identity labels.
+- [x] Validate the revised Home hero and build before checkpoint.
