@@ -254,3 +254,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Enlarge the portrait to fill the user-marked inner white-frame scale.
 - [x] Keep the face centered, torso crop intact, and orbit lines visible.
 - [x] Validate the enlarged Home hero and build before checkpoint.
+
+- [x] Match the portrait to the exact user-marked white frame scale.
+- [x] Keep the crop from above the head to the torso/palm boundary without hands.
+- [x] Preserve centered face and visible orbit lines.
+- [x] Validate the exact-frame Home hero and build before checkpoint.
