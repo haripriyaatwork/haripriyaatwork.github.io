@@ -13,3 +13,8 @@
 - [x] Replace placeholder career stops with verified experience and education stops.
 - [x] Add clickable stop details and responsive vertical mobile route.
 - [x] Revalidate build, PDF access, and map interactions.
+- [x] Remove HM boxes from the header and rail on all pages.
+- [x] Add the supplied portrait image exactly as provided.
+- [x] Remove the portrait “Currently exploring” panel.
+- [x] Update the home archive and communication-spectrum copy exactly as requested.
+- [x] Revalidate the revised pages and save a new checkpoint.
