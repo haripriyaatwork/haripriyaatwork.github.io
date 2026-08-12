@@ -345,3 +345,20 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Link Researcher to the supplied research proposal.
 - [x] Link Strategist to the Content, Strategy & Direction archive.
 - [x] Preserve pink hover/selected interaction styling and validate every destination with build and screenshots.
+
+
+- [ ] Remove the 23-poem archive description from Thinking.
+- [ ] Remove the Resume phone number.
+- [ ] Remove “Keep the PDF version nearby.” from Resume.
+- [ ] Rewrite Results intro copy around numbers brought through communication.
+- [ ] Make video play overlays and design tap overlays clickable.
+- [ ] Verify and document whether Contact submissions are emailed or only confirmed locally.
+
+
+- [x] Remove the 23-poem archive description from Thinking.
+- [x] Remove the Resume phone number.
+- [x] Remove “Keep the PDF version nearby.” from Resume.
+- [x] Rewrite Results intro copy around numbers brought through communication.
+- [x] Make video play overlays and design tap overlays clickable.
+- [x] Verify the contact flow: Connect uses a mailto draft; Contact is only a local confirmation and does not send data.
+- [x] Validate updated pages with the project check, production build, and screenshots.

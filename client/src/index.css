@@ -152,3 +152,7 @@
 /* Face-centering correction: lower the source image within the disc so the full face sits near the circle center. */
 .circular-identity-stage .hero-portrait-cutout{width:122%;height:122%;top:-3%;left:50%;transform:translateX(-50%);object-position:center 0%}
 @media(max-width:800px){.circular-identity-stage .hero-portrait-cutout{width:124%;height:122%;top:-3%;left:50%;transform:translateX(-50%);object-position:center 0%}}
+
+/* Media overlays are direct links now; preserve their centered editorial treatment and enable pointer interaction. */
+.embed-overlay{pointer-events:auto;text-decoration:none;cursor:pointer}
+.embed-overlay:hover,.embed-overlay:focus-visible{color:var(--pink);text-decoration:none;outline:1px solid var(--pink);outline-offset:-8px}
