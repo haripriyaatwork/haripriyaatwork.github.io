@@ -154,3 +154,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Reduce the Strategy entry and cards’ pink surface area.
 - [x] Add black borders and darker surfaces while keeping pink accents and expandable interactions.
 - [x] Validate the revised Strategy styling and build before checkpoint.
+
+- [x] Rename the Strategy section title to “Content, Strategy & Direction”.
+- [x] Preserve the existing dark styling, borders, and expandable strategy cards.
+- [x] Validate the renamed section and build before checkpoint.
