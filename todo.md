@@ -69,3 +69,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Verify the supplied Instagram carousel link and attach it to the relevant design/writing archive entry.
 - [x] Add the supplied essay “The Aesthetics of Obedience” to Thinking with its full text or excerpt and source link.
 - [x] Validate archive links and responsive cards before checkpoint.
+
+- [x] Verify the second Instagram carousel URL and confirm both public sources.
+- [x] Add both Instagram carousels as visual Design archive pieces with public links and preview treatment.
+- [x] Keep the first carousel’s essay entry in Thinking while linking its visual design artifact from Work.
+- [x] Validate carousel cards and responsive Work layout before checkpoint.
