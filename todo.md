@@ -106,3 +106,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Remove the extra project-title and work-to-be-added placeholder block from Design and Video sections.
 - [x] Preserve centered pink Click to see and Click to play overlays and direct links.
 - [x] Validate the cleaned archive sections before checkpoint.
+
+- [x] Verify the Arclantic author profile and identify every article attributed to Haripriya Mishra.
+- [x] Save the extracted article titles and direct URLs before implementation.
+- [x] Add the articles under Work → Writing → Journalistic Writing.
+- [x] Validate the article links and responsive archive presentation before checkpoint.
