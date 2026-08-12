@@ -372,3 +372,11 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Bring Storyteller and the other identity buttons nearer to the portrait circle.
 - [x] Normalize Strategist to the same regular button width as the other labels.
 - [x] Validate spacing and responsive behavior on desktop and mobile.
+
+
+- [ ] Move the compact Strategist button directly beneath and close to the portrait circle.
+- [ ] Validate the new Strategist placement on desktop and mobile.
+
+
+- [x] Move the compact Strategist button directly beneath and close to the portrait circle.
+- [x] Validate the new Strategist placement on desktop and mobile.

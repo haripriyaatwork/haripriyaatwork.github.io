@@ -165,3 +165,8 @@
 .circular-identity-stage .circle-label-researcher{right:calc(50% - 256px)}
 .circular-identity-stage .circle-label-strategist{right:calc(50% - 244px);left:auto}
 @media(max-width:800px){.circular-identity-stage .circle-label-communicator{right:8px}.circular-identity-stage .circle-label-poet{left:18px}.circular-identity-stage .circle-label-storyteller{left:14px}.circular-identity-stage .circle-label-researcher{right:10px}.circular-identity-stage .circle-label-strategist{right:18px;left:auto}}
+
+/* Strategist sits directly beneath the portrait disc, centered and close to its lower edge. */
+.circular-identity-stage .circle-label-strategist{left:50%;right:auto;top:478px;bottom:auto;transform:translateX(-50%)}
+.circular-identity-stage .circle-label-strategist:hover,.circular-identity-stage .circle-label-strategist:focus-visible,.circular-identity-stage .circle-label-strategist.selected{transform:translateX(-50%) translateY(-2px)}
+@media(max-width:800px){.circular-identity-stage .circle-label-strategist{left:50%;right:auto;top:382px;bottom:auto;transform:translateX(-50%)}.circular-identity-stage .circle-label-strategist:hover,.circular-identity-stage .circle-label-strategist:focus-visible,.circular-identity-stage .circle-label-strategist.selected{transform:translateX(-50%) translateY(-2px)}}
