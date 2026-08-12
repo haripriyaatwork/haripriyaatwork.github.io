@@ -259,3 +259,12 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Keep the crop from above the head to the torso/palm boundary without hands.
 - [x] Preserve centered face and visible orbit lines.
 - [x] Validate the exact-frame Home hero and build before checkpoint.
+
+- [ ] Remove the Resume Evidence & Context section.
+- [ ] Add an internal link from Resume to Work → Content, Strategy & Direction.
+- [ ] Validate the Resume link, layout, and build before checkpoint.
+
+
+- [x] Replace the Resume Evidence & Context area with a Content, Strategy & Direction archive link.
+- [x] Add `/work#strategy` hash handling so the Work page opens the Strategy filter and scrolls to the archive.
+- [x] Validate the interlink with the project check script, production build, and Resume/Work screenshots.
