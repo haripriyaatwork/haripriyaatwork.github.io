@@ -96,3 +96,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add the supplied Instagram post Dbc6W-EO1ZN to the Graphic Design archive as work to be added.
 - [x] Add the supplied Instagram post DZ99hAWp1MU to the Graphic Design archive as work to be added.
 - [x] Validate the Graphic Design filter and responsive embeds before checkpoint.
+
+- [x] Replace video fallback text with “Click to play” and add a large centered pink play symbol.
+- [x] Add a large centered pink finger-tap symbol and “Click to see” to Design cards.
+- [x] Preserve direct click-through links to the original Instagram posts and Reels.
+- [x] Validate overlay visibility, hover states, and responsive layout before checkpoint.
