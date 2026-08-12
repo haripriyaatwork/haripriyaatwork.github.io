@@ -189,3 +189,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Remove the Strategy / case study architecture placeholder section.
 - [x] Keep the populated Content, Strategy & Direction archive unchanged.
 - [x] Validate the Work page and build before checkpoint.
+
+- [x] Remove spacing-heavy archive descriptions from Writing, Design, and Academics headings.
+- [x] Tighten duplicate separators and section margins across Writing, Design, Academics, and All views.
+- [x] Preserve all archive cards, embeds, links, and actions.
+- [x] Validate representative filters and build before checkpoint.
