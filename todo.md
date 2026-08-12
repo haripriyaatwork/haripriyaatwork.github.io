@@ -50,3 +50,10 @@
 - [ ] Validate the corrected Results page and save a new checkpoint.
 
 Completed in this revision: removed the duplicate platform list, removed Reddit and YouTube entries, kept only dedicated LinkedIn, X, and Instagram client modules, and replaced Instagram with the exact cropped screenshot and corrected 8,778 account-reach metric.
+
+- [x] Remove the Home portrait temporarily.
+- [x] Remove numeric prefixes from navigation labels and make Let’s Talk the final destination instead of a separate Connect item.
+- [x] Update the Home career line to “The career has not been a straight line, rather more of a spectrum.”
+- [x] Update spectrum skills: add script writing, X tweets writing, Reddit writing, and Others with vox pops or interviews; remove AEO.
+- [x] Update archive teasers so Writing covers articles, essays, journalism; Thinking includes poetry, opinions, observations, unfinished thoughts; keep Proof.
+- [x] Validate the Home page and navigation changes.
