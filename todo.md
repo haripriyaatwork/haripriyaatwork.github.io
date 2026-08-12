@@ -181,3 +181,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Remove the “Stay tuned… / There is more to come.” closing block from Who I Am.
 - [x] Let the footer follow the persona content without adding replacement filler.
 - [x] Validate the Who I Am page and build before checkpoint.
+
+- [x] Remove the two-line Video archive description.
+- [x] Tighten spacing so Reel cards begin closer to the Video filter controls.
+- [x] Validate the Video filter and build before checkpoint.
