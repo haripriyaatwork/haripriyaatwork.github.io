@@ -137,3 +137,14 @@
 /* Final torso crop adjustment: trim the lower edge of the source image so hands and palm remain outside the circular frame. */
 .circular-identity-stage .hero-portrait-cutout{width:106%;height:122%;top:-10%;object-position:center 8%}
 @media(max-width:800px){.circular-identity-stage .hero-portrait-cutout{width:108%;height:122%;top:-10%;object-position:center 8%}}
+
+/* Hand-position refinement: move the source image upward within the circle so the visible frame ends above the hand. */
+.circular-identity-stage .hero-portrait-cutout{height:132%;top:-15%;object-position:center 6%}
+@media(max-width:800px){.circular-identity-stage .hero-portrait-cutout{height:132%;top:-15%;object-position:center 6%}}
+
+/* Balance correction: restore head clearance and fade the lower source edge before the hand appears. */
+.circular-identity-stage .hero-portrait-cutout{height:122%;top:-10%;object-position:center 8%;-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 84%);mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 84%)}
+@media(max-width:800px){.circular-identity-stage .hero-portrait-cutout{height:122%;top:-10%;object-position:center 8%;-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 84%);mask-image:linear-gradient(to bottom,#000 0%,#000 72%,transparent 84%)}}
+
+/* Spectrum heading accent: keep the phrase “of interests.” in the signature pink. */
+.pink-heading-accent{color:var(--pink)}

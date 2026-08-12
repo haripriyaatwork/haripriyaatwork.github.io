@@ -304,3 +304,18 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Use the supplied LinkedIn reference as the visual crop target: head and upper torso only, with hands and palm excluded.
 - [x] Rebalance all five identity labels so they do not collide with the hero headline or one another.
 - [x] Validate the final crop and label arrangement with the project check, production build, and Home screenshot.
+
+
+- [ ] Pull the visible hand farther below the circular portrait crop while keeping the head and face centered.
+- [ ] Validate the adjusted portrait on desktop and mobile.
+
+
+- [x] Pull the visible hand farther below the circular portrait crop while keeping the head and face centered.
+- [x] Validate the adjusted portrait with the project check, production build, and Home screenshot.
+
+
+- [ ] Change Home spectrum heading so “of interests.” is pink and “A plethora” remains light.
+
+
+- [x] Change Home spectrum heading so “of interests.” is pink and “A plethora” remains light.
+- [x] Validate the heading accent with the project check, production build, and Home screenshot.
