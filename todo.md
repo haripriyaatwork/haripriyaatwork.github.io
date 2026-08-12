@@ -43,3 +43,10 @@
 - [x] Remove Reddit and YouTube from the Results platform list.
 - [x] Add the supplied Instagram client-performance screenshot and visible metrics.
 - [x] Validate the revised Results page and save a new checkpoint.
+
+- [ ] Remove all extra Instagram, Reddit, and YouTube entries from the Results platform list.
+- [ ] Upload and use the exact cropped Instagram screenshot supplied by the user.
+- [ ] Confirm the Instagram metrics match the cropped screenshot.
+- [ ] Validate the corrected Results page and save a new checkpoint.
+
+Completed in this revision: removed the duplicate platform list, removed Reddit and YouTube entries, kept only dedicated LinkedIn, X, and Instagram client modules, and replaced Instagram with the exact cropped screenshot and corrected 8,778 account-reach metric.
