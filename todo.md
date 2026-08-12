@@ -126,3 +126,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Verify the Emergency Era Press Time Canva presentation link and add it under Work → Academics.
 - [x] Preserve accurate contribution notes for design, compilation, research, and writing.
 - [x] Validate the Academic presentation links and responsive cards before checkpoint.
+
+- [x] Upload ResearchArticletheFutureofPrintMediaHaripriya.pdf as a persistent web asset.
+- [x] Add “The Future of Print Media” under Work → Academics with open and download actions.
+- [x] Preserve the supplied PDF without altering its contents.
+- [x] Validate the Academic article card and PDF access before checkpoint.
