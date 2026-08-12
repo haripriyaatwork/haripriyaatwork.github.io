@@ -1,0 +1,9 @@
+/* Editorial Signal archive: project index uses alternating image/caption blocks and rose marginalia. */
+import { Link } from "wouter";
+import { ArrowUpRight } from "lucide-react";
+const work = [
+  { slug: "signal-noise", no: "01", title: "Signal / Noise", label: "Communication strategy", year: "2025", description: "A sharper language system for a culture platform growing faster than its point of view.", image: "/manus-storage/communicate-signal_f9c2cb38.png" },
+  { slug: "archive-project", no: "02", title: "The Archive Project", label: "Editorial identity", year: "2024", description: "Making a private collection legible, inviting, and ready to become a public resource.", image: "/manus-storage/communicate-archive_d375ac4d.png" },
+  { slug: "future-readable", no: "03", title: "Future, Readable", label: "Brand voice", year: "2024", description: "A voice and content architecture for a climate-tech team speaking beyond the bubble.", image: "/manus-storage/communicate-signal_f9c2cb38.png" },
+];
+export default function Work() { return <section className="page container work-page"><div className="page-intro"><span className="eyebrow">02 / The archive</span><h1>Selected <em>work.</em></h1><p>Some questions I have helped make clearer, more useful, and more difficult to ignore.</p></div><div className="archive-list">{work.map((item, i) => <Link href={`/work/${item.slug}`} className={`archive-item ${i % 2 ? "reverse" : ""}`} key={item.slug}><div className="archive-image"><img src={item.image} alt="" /></div><div className="archive-copy"><span className="project-number">{item.no} / {item.year}</span><h2>{item.title}</h2><p className="archive-label">{item.label}</p><p>{item.description}</p><span className="text-link">Read the case study <ArrowUpRight size={16} /></span></div></Link>)}</div></section>; }
