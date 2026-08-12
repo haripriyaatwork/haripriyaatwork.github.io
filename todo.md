@@ -18,3 +18,7 @@
 - [x] Remove the portrait “Currently exploring” panel.
 - [x] Update the home archive and communication-spectrum copy exactly as requested.
 - [x] Revalidate the revised pages and save a new checkpoint.
+- [x] Convert the supplied portrait into a transparent cutout presentation with no rectangular frame.
+- [x] Center the cutout portrait inside the animated orbit.
+- [x] Restore the lower archive heading to its previous wording while keeping the requested spectrum heading change.
+- [x] Validate the additional revisions before delivery.
