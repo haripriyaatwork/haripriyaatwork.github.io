@@ -245,3 +245,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Move COMMUNICATOR right to clear the forehead.
 - [x] Move POET inward toward the orbit system.
 - [x] Validate the refined Home composition and build before checkpoint.
+
+- [x] Crop the Home portrait around the torso so the hands are not visible.
+- [x] Enlarge the portrait slightly while keeping the face centered in the inner orbit.
+- [x] Preserve orbit visibility and the POET balance.
+- [x] Validate the revised Home hero and build before checkpoint.
