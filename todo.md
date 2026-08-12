@@ -136,3 +136,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add the RJ Atiq interview article assignment under Work as an interview-writing artifact with open and download actions.
 - [x] Preserve the supplied PDF without altering its contents.
 - [x] Validate the interview article card and PDF access before checkpoint.
+
+- [x] Upload ભાગલાં-HaripriyaMishraMJMC1.m4a as a persistent web asset.
+- [x] Add the radio storytelling assignment under a separate Work audio section with music/audio identification and playback controls.
+- [x] Preserve the supplied audio without altering its contents.
+- [x] Validate the audio card and playback source before checkpoint.
