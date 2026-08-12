@@ -38,3 +38,8 @@
 - [x] Add verified X metrics from the report and label them as client-account performance.
 - [x] Add the supplied reflective narrative as supporting context, with no invented claims.
 - [x] Validate the Results page and save a new checkpoint.
+
+- [x] Keep the supplied client report under X only.
+- [x] Remove Reddit and YouTube from the Results platform list.
+- [x] Add the supplied Instagram client-performance screenshot and visible metrics.
+- [x] Validate the revised Results page and save a new checkpoint.
