@@ -156,3 +156,12 @@
 /* Media overlays are direct links now; preserve their centered editorial treatment and enable pointer interaction. */
 .embed-overlay{pointer-events:auto;text-decoration:none;cursor:pointer}
 .embed-overlay:hover,.embed-overlay:focus-visible{color:var(--pink);text-decoration:none;outline:1px solid var(--pink);outline-offset:-8px}
+
+/* Final identity-button balance: keep labels close to the disc and size every button to its text. */
+.circular-identity-stage .circle-identity-label{display:inline-flex;width:max-content;min-width:0;max-width:max-content;white-space:nowrap}
+.circular-identity-stage .circle-label-communicator{right:calc(50% - 266px)}
+.circular-identity-stage .circle-label-poet{left:calc(50% - 216px)}
+.circular-identity-stage .circle-label-storyteller{left:calc(50% - 204px)}
+.circular-identity-stage .circle-label-researcher{right:calc(50% - 256px)}
+.circular-identity-stage .circle-label-strategist{right:calc(50% - 244px);left:auto}
+@media(max-width:800px){.circular-identity-stage .circle-label-communicator{right:8px}.circular-identity-stage .circle-label-poet{left:18px}.circular-identity-stage .circle-label-storyteller{left:14px}.circular-identity-stage .circle-label-researcher{right:10px}.circular-identity-stage .circle-label-strategist{right:18px;left:auto}}

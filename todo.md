@@ -362,3 +362,13 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Make video play overlays and design tap overlays clickable.
 - [x] Verify the contact flow: Connect uses a mailto draft; Contact is only a local confirmation and does not send data.
 - [x] Validate updated pages with the project check, production build, and screenshots.
+
+
+- [ ] Bring Storyteller and the other identity buttons nearer to the portrait circle.
+- [ ] Normalize Strategist to the same regular button width as the other labels.
+- [ ] Validate spacing and responsive behavior on desktop and mobile.
+
+
+- [x] Bring Storyteller and the other identity buttons nearer to the portrait circle.
+- [x] Normalize Strategist to the same regular button width as the other labels.
+- [x] Validate spacing and responsive behavior on desktop and mobile.
