@@ -121,3 +121,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add a viewable/downloadable research proposal card under Work → Academics.
 - [x] Preserve the original PDF without altering its contents.
 - [x] Validate PDF access and the Academics filter before checkpoint.
+
+- [x] Verify the Portrait Photography Canva presentation link and add it under Work → Academics.
+- [x] Verify the Emergency Era Press Time Canva presentation link and add it under Work → Academics.
+- [x] Preserve accurate contribution notes for design, compilation, research, and writing.
+- [x] Validate the Academic presentation links and responsive cards before checkpoint.
