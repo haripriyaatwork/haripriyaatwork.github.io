@@ -1,0 +1,3 @@
+# Portrait asset findings
+
+The ZIP contains three wide PNG banner variants, each 4375 × 1094 px. Images 1 and 2 both show Haripriya in a black sari as the central portrait on a dark editorial banner with rose/pink accents. The portrait is already visually cut out against the banner’s dark gradient, but the files are full banners rather than transparent portrait-only assets. Image 1 includes more visible supporting copy and pill metrics; Image 2 is a cleaner banner variant with the portrait centered and fewer surrounding elements. For the Home hero, the portrait should be isolated from the banner rather than placed as a rectangular banner image, preserving the existing orbit lines around it.

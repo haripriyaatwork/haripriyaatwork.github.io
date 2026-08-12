@@ -229,3 +229,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add the Sudhir Parab National Kho Kho Champion interview Reel under Work → Video.
 - [x] Preserve direct Instagram links and use accurate interview labels without inventing details.
 - [x] Validate the Video filter, embeds, and build before checkpoint.
+
+- [x] Inspect the supplied ZIP and identify the correct portrait asset.
+- [x] Place the portrait as a full cutout-style Home hero image around the communicator and strategist labels.
+- [x] Preserve the orbit lines and avoid a rectangular portrait container.
+- [x] Validate the Home hero and build before checkpoint.
