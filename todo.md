@@ -92,3 +92,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add the six supplied Instagram Reels to the Videos archive as embeds.
 - [x] Note the supplied script and lead-generation context for Reel 2 only.
 - [x] Validate Design and Videos filters and responsive embed layouts before checkpoint.
+
+- [x] Add the supplied Instagram post Dbc6W-EO1ZN to the Graphic Design archive as work to be added.
+- [x] Add the supplied Instagram post DZ99hAWp1MU to the Graphic Design archive as work to be added.
+- [x] Validate the Graphic Design filter and responsive embeds before checkpoint.

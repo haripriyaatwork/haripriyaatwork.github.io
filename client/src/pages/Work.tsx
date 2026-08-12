@@ -10,6 +10,8 @@ const posts = [
   { number: "03", title: "MY ADVICE: WRITE A BAD PROMPT!!!", excerpt: "You do not need a perfect start. You need a starting point you can critique.", impressions: "2,502 impressions", href: "https://www.linkedin.com/posts/haripriyamishra2301_my-advice-write-a-bad-prompt-yes-activity-7455818283372638208-MS_P", tag: "CREATION" },
 ];
 const designCarousels = [
+  { title: "Graphic design 01", note: "To be added / Instagram design reference", href: "https://www.instagram.com/p/Dbc6W-EO1ZN/" },
+  { title: "Graphic design 02", note: "To be added / Instagram design reference", href: "https://www.instagram.com/p/DZ99hAWp1MU/" },
   { title: "BTB design 01", note: "BTB Instagram carousel / design artifact", href: "https://www.instagram.com/p/DbtH1rkAa0q/" },
   { title: "BTB design 02", note: "BTB Instagram carousel / design artifact", href: "https://www.instagram.com/p/Db0m6m_Adcs/" },
   { title: "BTB design 03", note: "BTB Instagram carousel / design artifact", href: "https://www.instagram.com/p/DaA830kDUww/" },
