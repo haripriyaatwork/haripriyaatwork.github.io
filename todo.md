@@ -280,3 +280,13 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Remove the obsolete “Evidence & Context to be provided” placeholder.
 - [x] Replace the Home orbit composition with a burgundy circular portrait, secondary orbit lines, and Storyteller, Poet, and Communicator labels.
 - [x] Validate the Results and Home desktop presentation with the project check, production build, and screenshots.
+
+
+- [ ] Center the full portrait head and face inside the circular treatment.
+- [ ] Move Communicator, Poet, Storyteller, Researcher, and Strategist outside the circle edge without face overlap.
+- [ ] Validate the refined Home hero on desktop and mobile.
+
+
+- [x] Center the full portrait head and face inside the circular treatment.
+- [x] Move Communicator, Poet, Storyteller, Researcher, and Strategist outside the circle edge without face overlap.
+- [x] Validate the refined Home hero on desktop and mobile.

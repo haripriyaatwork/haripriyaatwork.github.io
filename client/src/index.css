@@ -111,3 +111,15 @@
 .results-strategy-link .text-link{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;color:#130b0e;border-bottom:1px solid currentColor;padding-bottom:6px;text-transform:uppercase;font-size:10px;letter-spacing:.12em}
 .results-strategy-link .text-link:hover,.results-strategy-link .text-link:focus-visible{color:#fff}
 @media(max-width:800px){.circular-identity-stage{min-height:450px}.portrait-disc{top:54px;width:310px;height:310px}.portrait-orbit{top:205px;width:410px;height:150px}.portrait-orbit-two{width:380px;height:180px}.circle-label-communicator{right:0;top:100px}.circle-label-poet{left:16px;top:112px}.circle-label-storyteller{left:0;bottom:82px}.results-strategy-link{display:block}.results-strategy-link .text-link{margin-top:22px}}
+
+/* Home portrait refinement: preserve the complete head inside the disc and keep every identity label outside its edge. */
+.circular-identity-stage .portrait-disc{width:380px;height:380px;top:88px}
+.circular-identity-stage .hero-portrait-cutout{width:118%;height:118%;top:-7%;object-fit:contain;object-position:center center}
+.circular-identity-stage .circle-identity-label{transform:none}
+.circle-label-communicator{right:calc(50% - 260px);top:96px}
+.circle-label-poet{left:calc(50% - 260px);top:132px}
+.circle-label-storyteller{left:calc(50% - 290px);bottom:96px}
+.circle-label-researcher{right:calc(50% - 286px);bottom:126px}
+.circle-label-strategist{left:calc(50% - 82px);bottom:12px}
+.circular-identity-stage .circle-identity-label:hover,.circular-identity-stage .circle-identity-label:focus-visible,.circular-identity-stage .circle-identity-label.selected{transform:translateY(-2px)}
+@media(max-width:800px){.circular-identity-stage .portrait-disc{width:300px;height:300px;top:70px}.circular-identity-stage .hero-portrait-cutout{width:120%;height:120%;top:-8%}.circle-label-communicator{right:-4px;top:84px}.circle-label-poet{left:0;top:112px}.circle-label-storyteller{left:-4px;bottom:72px}.circle-label-researcher{right:-16px;bottom:94px}.circle-label-strategist{left:calc(50% - 45px);bottom:16px}}
