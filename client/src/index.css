@@ -72,3 +72,6 @@
 
 /* Resume skills: grouped clusters create hierarchy without turning the section into a flat tag wall. */
 .resume-skill-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);margin-top:24px}.resume-skill-group{background:var(--background);padding:24px;min-height:150px}.resume-skill-group>span{display:block;margin-bottom:22px}.resume-skill-group>div{display:flex;flex-wrap:wrap;gap:8px}.resume-skill-group>div span{border-bottom:1px solid rgba(216,91,120,.5);padding:0 0 4px;color:var(--foreground);font-size:12px;line-height:1.3}.resume-skill-group>div span:hover{color:var(--pink)}@media(max-width:650px){.resume-skill-groups{grid-template-columns:1fr}.resume-skill-group{min-height:0}}
+
+/* Thinking poetry placeholder: a quiet, literary holding space for the user’s future poems. */
+.poetry-ready-note{margin-top:28px;max-width:34rem;border-top:1px solid var(--pink);padding-top:18px}.poetry-ready-note span{font-size:10px;letter-spacing:.16em;color:var(--pink)}.poetry-ready-note p{margin-top:14px;color:var(--muted);line-height:1.7}.poetry-ready-card{min-height:220px}

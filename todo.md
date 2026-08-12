@@ -210,3 +210,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Replace the undifferentiated skill cloud with a stronger visual hierarchy.
 - [x] Preserve all supplied skills while improving scanability.
 - [x] Validate the redesigned Skills section and build before checkpoint.
+
+- [x] Remove Opinion, Research, Communication, Ideas, Observations, and Personal Thinking from the Thinking page.
+- [x] Keep the existing supported Thinking material unchanged.
+- [x] Leave a clean poem-ready structure without invented poem titles or text.
+- [x] Validate the Thinking page and build before checkpoint.
