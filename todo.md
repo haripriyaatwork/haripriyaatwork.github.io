@@ -163,3 +163,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add “Team Sirens” under Work → Writing with open and download actions.
 - [x] Add “Team Sirens” under Work → Academics with open and download actions.
 - [x] Preserve the supplied screenplay PDF and validate both placements before checkpoint.
+
+- [x] Upload TheOrientationNewsPaperReport1-HaripriyaMishra(1).pdf as a persistent web asset.
+- [x] Add the Orientation Report under Work → Writing with open and download actions.
+- [x] Add the Orientation Report under Work → Other with open and download actions.
+- [x] Preserve the supplied PDF and validate both placements before checkpoint.
