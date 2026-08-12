@@ -200,3 +200,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Separate Buzz Up Marketing from Adwise and show the part-time-to-full-time promotion clearly.
 - [x] Replace the old trajectory copy and stop labels with clearer, role-specific language.
 - [x] Validate all resume-derived details, layout, and build before checkpoint.
+
+- [x] Replace the boxed Resume trajectory cards with a line-and-dot timeline.
+- [x] Keep the updated chronological order and selectable role detail.
+- [x] Prevent stop labels from overlapping, especially nearby roles.
+- [x] Validate the revised timeline and build before checkpoint.
