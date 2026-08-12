@@ -88,6 +88,10 @@ const reels = [
   { title: "Reel 04", href: "https://www.instagram.com/reel/DZnHtI8B4N2/", note: "Instagram Reel / video artifact" },
   { title: "Reel 05", href: "https://www.instagram.com/reel/DbTc5uWN1ik/", note: "Instagram Reel / video artifact" },
   { title: "Reel 06", href: "https://www.instagram.com/reel/DaxawrvuA_S/", note: "Instagram Reel / video artifact" },
+  { title: "Interview Reel 01", href: "https://www.instagram.com/reel/DOxSvNrCGjX/", note: "Public interview Reel" },
+  { title: "Interview Reel 02", href: "https://www.instagram.com/reel/DPBuOD1CJ9r/", note: "Public interview Reel" },
+  { title: "Interview Reel 03", href: "https://www.instagram.com/reel/DPwHEiWkduo/", note: "Public interview Reel" },
+  { title: "Interviewed National Kho Kho Champion Sudhir Parab", href: "https://www.instagram.com/reel/DQBPXZmjGZm/", note: "Interview Reel / National Kho Kho Champion Sudhir Parab" },
 ];
 const strategyWork = [
   { title: "Insurance & Financial Services", platform: "LinkedIn Strategy", summary: "Built educational, trust-building, and lead-oriented communication for an insurance professional.", detail: "Audience segmentation, insurance awareness, health insurance, NRI insurance, group insurance, senior citizen insurance, insurance gaps, polls, lead-generation polls, and topical campaigns were planned around real customer concerns. The journey was Problem awareness → Education → Trust → Engagement → Lead." },

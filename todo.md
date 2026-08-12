@@ -224,3 +224,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Remove the four requested title-note metadata lines from the Poetry archive.
 - [x] Preserve the poem titles and poem bodies unchanged.
 - [x] Validate the cleaned Poetry reader and build before checkpoint.
+
+- [x] Add the three supplied public interview Reels under Work → Video.
+- [x] Add the Sudhir Parab National Kho Kho Champion interview Reel under Work → Video.
+- [x] Preserve direct Instagram links and use accurate interview labels without inventing details.
+- [x] Validate the Video filter, embeds, and build before checkpoint.
