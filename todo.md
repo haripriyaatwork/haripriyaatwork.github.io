@@ -172,3 +172,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Remove the shared editorial rail from every page.
 - [x] Remove its plus/signal mark, vertical line, and rotated Haripriya Mishra label.
 - [x] Validate representative page layouts and build before checkpoint.
+
+- [x] Add the five supplied LinkedIn posts under Work → Writing with direct links.
+- [x] Add the supplied Rusk Media LinkedIn post under Work → Design.
+- [x] Label the Design entry accurately as design and ideation support.
+- [x] Validate the LinkedIn links, filters, responsive cards, and build before checkpoint.
