@@ -158,3 +158,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Rename the Strategy section title to “Content, Strategy & Direction”.
 - [x] Preserve the existing dark styling, borders, and expandable strategy cards.
 - [x] Validate the renamed section and build before checkpoint.
+
+- [x] Upload SCREENPLAY-TEAMSIRENS(Final)2.pdf as a persistent web asset.
+- [x] Add “Team Sirens” under Work → Writing with open and download actions.
+- [x] Add “Team Sirens” under Work → Academics with open and download actions.
+- [x] Preserve the supplied screenplay PDF and validate both placements before checkpoint.
