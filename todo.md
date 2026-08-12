@@ -34,3 +34,7 @@
 - [x] Format content as paragraphs, remove em dashes, and highlight important words.
 - [x] Validate Who I Am typography, spacing, and responsive readability.
 - [x] Save a new Who I Am checkpoint.
+- [x] Add the supplied X client analytics screenshot as a persistent web asset.
+- [x] Add verified X metrics from the report and label them as client-account performance.
+- [x] Add the supplied reflective narrative as supporting context, with no invented claims.
+- [x] Validate the Results page and save a new checkpoint.
