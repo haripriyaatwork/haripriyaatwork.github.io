@@ -86,3 +86,9 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Replace repeated Who I Am closing copy with “Stay tuned...”.
 - [x] Replace applicable placeholder labels with supplied verified content where available.
 - [x] Validate Let’s Talk and Who I Am pages before checkpoint.
+
+- [x] Change the LinkedIn Design embed fallback label to “View this Post on LinkedIn”.
+- [x] Add the three supplied BTB Instagram carousels to the Design archive.
+- [x] Add the six supplied Instagram Reels to the Videos archive as embeds.
+- [x] Note the supplied script and lead-generation context for Reel 2 only.
+- [x] Validate Design and Videos filters and responsive embed layouts before checkpoint.
