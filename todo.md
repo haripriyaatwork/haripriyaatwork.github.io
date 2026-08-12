@@ -168,3 +168,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add the Orientation Report under Work → Writing with open and download actions.
 - [x] Add the Orientation Report under Work → Other with open and download actions.
 - [x] Preserve the supplied PDF and validate both placements before checkpoint.
+
+- [x] Remove the shared editorial rail from every page.
+- [x] Remove its plus/signal mark, vertical line, and rotated Haripriya Mishra label.
+- [x] Validate representative page layouts and build before checkpoint.
