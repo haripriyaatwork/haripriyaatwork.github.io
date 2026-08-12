@@ -141,3 +141,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add the radio storytelling assignment under a separate Work audio section with music/audio identification and playback controls.
 - [x] Preserve the supplied audio without altering its contents.
 - [x] Validate the audio card and playback source before checkpoint.
+
+- [x] Add the existing RJ Atiq interview artifact to Work → Other as an interview entry.
+- [x] Preserve the existing Work → Writing → Interview Writing entry.
+- [x] Validate both archive placements and the shared PDF actions before checkpoint.
