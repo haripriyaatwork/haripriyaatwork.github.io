@@ -319,3 +319,13 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 
 - [x] Change Home spectrum heading so “of interests.” is pink and “A plethora” remains light.
 - [x] Validate the heading accent with the project check, production build, and Home screenshot.
+
+
+- [ ] Recenter the full face and head within the burgundy circle based on the supplied screenshot.
+- [ ] Preserve the torso-only crop and keep the five labels clear of the face and headline.
+- [ ] Validate the centered portrait on desktop and mobile.
+
+
+- [x] Recenter the full face and head within the burgundy circle based on the supplied screenshot.
+- [x] Preserve the torso-only crop and keep the five labels clear of the face and headline.
+- [x] Validate the centered portrait with the project check, production build, and Home screenshot.

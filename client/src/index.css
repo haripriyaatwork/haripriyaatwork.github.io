@@ -148,3 +148,7 @@
 
 /* Spectrum heading accent: keep the phrase “of interests.” in the signature pink. */
 .pink-heading-accent{color:var(--pink)}
+
+/* Face-centering correction: lower the source image within the disc so the full face sits near the circle center. */
+.circular-identity-stage .hero-portrait-cutout{width:122%;height:122%;top:-3%;left:50%;transform:translateX(-50%);object-position:center 0%}
+@media(max-width:800px){.circular-identity-stage .hero-portrait-cutout{width:124%;height:122%;top:-3%;left:50%;transform:translateX(-50%);object-position:center 0%}}
