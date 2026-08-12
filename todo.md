@@ -220,3 +220,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Preserve each poem’s wording, line breaks, stanza spacing, and supplied title notes.
 - [x] Implement a readable Poetry archive with title-led expandable or focused reading views.
 - [x] Validate the poem archive, mobile presentation, and build before checkpoint.
+
+- [x] Remove the four requested title-note metadata lines from the Poetry archive.
+- [x] Preserve the poem titles and poem bodies unchanged.
+- [x] Validate the cleaned Poetry reader and build before checkpoint.
