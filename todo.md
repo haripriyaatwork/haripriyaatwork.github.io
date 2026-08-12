@@ -22,3 +22,7 @@
 - [x] Center the cutout portrait inside the animated orbit.
 - [x] Restore the lower archive heading to its previous wording while keeping the requested spectrum heading change.
 - [x] Validate the additional revisions before delivery.
+- [x] Extract LinkedIn posts, impression counts, and any available public URLs from the supplied content.
+- [x] Replace the visible portrait background with a true transparent cutout and integrate it naturally in the orbit.
+- [x] Add verified LinkedIn post links to relevant archive/results sections without fabricating URLs.
+- [x] Validate external links, portrait presentation, responsive pages, and save a checkpoint.
