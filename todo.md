@@ -215,3 +215,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Keep the existing supported Thinking material unchanged.
 - [x] Leave a clean poem-ready structure without invented poem titles or text.
 - [x] Validate the Thinking page and build before checkpoint.
+
+- [x] Structure the supplied poem collection from pasted_content_9.txt into titled poem entries.
+- [x] Preserve each poem’s wording, line breaks, stanza spacing, and supplied title notes.
+- [x] Implement a readable Poetry archive with title-led expandable or focused reading views.
+- [x] Validate the poem archive, mobile presentation, and build before checkpoint.
