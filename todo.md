@@ -150,3 +150,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add the 13 anonymous industry, platform, and strategy cards using the supplied factual content.
 - [x] Make each strategy card individually expandable without exposing client or brand names.
 - [x] Validate the Strategy filter, interactions, responsive layout, and build before checkpoint.
+
+- [x] Reduce the Strategy entry and cards’ pink surface area.
+- [x] Add black borders and darker surfaces while keeping pink accents and expandable interactions.
+- [x] Validate the revised Strategy styling and build before checkpoint.
