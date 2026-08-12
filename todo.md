@@ -185,3 +185,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Remove the two-line Video archive description.
 - [x] Tighten spacing so Reel cards begin closer to the Video filter controls.
 - [x] Validate the Video filter and build before checkpoint.
+
+- [x] Remove the Strategy / case study architecture placeholder section.
+- [x] Keep the populated Content, Strategy & Direction archive unchanged.
+- [x] Validate the Work page and build before checkpoint.
