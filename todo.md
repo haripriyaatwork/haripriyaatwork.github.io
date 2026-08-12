@@ -57,3 +57,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Update spectrum skills: add script writing, X tweets writing, Reddit writing, and Others with vox pops or interviews; remove AEO.
 - [x] Update archive teasers so Writing covers articles, essays, journalism; Thinking includes poetry, opinions, observations, unfinished thoughts; keep Proof.
 - [x] Validate the Home page and navigation changes.
+
+- [x] Reframe Who I Am as four compact pink section cards instead of showing all narrative text at once.
+- [x] Add click-to-expand behavior with accessible buttons and full existing content inside each card.
+- [x] Preserve paragraph formatting, bold highlights, quotes, and no em dashes in expanded content.
+- [x] Validate desktop landscape, mobile stacking, keyboard interaction, and save a checkpoint.
