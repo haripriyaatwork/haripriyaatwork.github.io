@@ -80,3 +80,9 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add three factual personas under Who I Am: LinkedIn communication, Instagram creator/poet, and Substack essay thinking.
 - [x] Add the Instagram username, poetry themes, and 21-day writing challenge note without inventing timing.
 - [x] Validate embeds, external links, and responsive persona cards before checkpoint.
+
+- [x] Replace Connect contact details with haripriyaatwork@gmail.com, LinkedIn, Substack, and Instagram; remove X.
+- [x] Make Send the signal show a clear local confirmation message after submission.
+- [x] Replace repeated Who I Am closing copy with “Stay tuned...”.
+- [x] Replace applicable placeholder labels with supplied verified content where available.
+- [x] Validate Let’s Talk and Who I Am pages before checkpoint.
