@@ -290,3 +290,17 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Center the full portrait head and face inside the circular treatment.
 - [x] Move Communicator, Poet, Storyteller, Researcher, and Strategist outside the circle edge without face overlap.
 - [x] Validate the refined Home hero on desktop and mobile.
+
+
+- [ ] Crop the Home portrait to head-through-torso only, matching the user’s LinkedIn reference.
+- [ ] Exclude both hands and the visible palm while preserving face centering and the circular treatment.
+- [ ] Validate the crop on desktop and mobile after the reference image is supplied.
+
+
+- [ ] Use the supplied LinkedIn reference as the visual crop target: head and upper torso only, with hands and palm excluded.
+- [ ] Rebalance all five identity labels so they do not collide with the hero headline or one another.
+
+
+- [x] Use the supplied LinkedIn reference as the visual crop target: head and upper torso only, with hands and palm excluded.
+- [x] Rebalance all five identity labels so they do not collide with the hero headline or one another.
+- [x] Validate the final crop and label arrangement with the project check, production build, and Home screenshot.

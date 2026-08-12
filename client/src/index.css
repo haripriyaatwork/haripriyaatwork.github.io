@@ -123,3 +123,17 @@
 .circle-label-strategist{left:calc(50% - 82px);bottom:12px}
 .circular-identity-stage .circle-identity-label:hover,.circular-identity-stage .circle-identity-label:focus-visible,.circular-identity-stage .circle-identity-label.selected{transform:translateY(-2px)}
 @media(max-width:800px){.circular-identity-stage .portrait-disc{width:300px;height:300px;top:70px}.circular-identity-stage .hero-portrait-cutout{width:120%;height:120%;top:-8%}.circle-label-communicator{right:-4px;top:84px}.circle-label-poet{left:0;top:112px}.circle-label-storyteller{left:-4px;bottom:72px}.circle-label-researcher{right:-16px;bottom:94px}.circle-label-strategist{left:calc(50% - 45px);bottom:16px}}
+
+/* Reference-matched Home crop: head and upper torso only, with a calmer label ring kept clear of the headline. */
+.circular-identity-stage .portrait-disc{width:380px;height:380px;top:88px}
+.circular-identity-stage .hero-portrait-cutout{width:106%;height:106%;top:-5%;object-fit:cover;object-position:center 10%}
+.circle-label-communicator{right:calc(50% - 286px);top:94px}
+.circle-label-poet{left:calc(50% - 236px);top:108px}
+.circle-label-storyteller{left:calc(50% - 224px);bottom:72px}
+.circle-label-researcher{right:calc(50% - 276px);bottom:118px}
+.circle-label-strategist{right:calc(50% - 264px);bottom:44px}
+@media(max-width:800px){.circular-identity-stage .portrait-disc{width:300px;height:300px;top:70px}.circular-identity-stage .hero-portrait-cutout{width:108%;height:108%;top:-5%;object-position:center 10%}.circle-label-communicator{right:-2px;top:76px}.circle-label-poet{left:6px;top:104px}.circle-label-storyteller{left:2px;bottom:68px}.circle-label-researcher{right:-6px;bottom:112px}.circle-label-strategist{right:-2px;bottom:54px}}
+
+/* Final torso crop adjustment: trim the lower edge of the source image so hands and palm remain outside the circular frame. */
+.circular-identity-stage .hero-portrait-cutout{width:106%;height:122%;top:-10%;object-position:center 8%}
+@media(max-width:800px){.circular-identity-stage .hero-portrait-cutout{width:108%;height:122%;top:-10%;object-position:center 8%}}

@@ -1,4 +1,4 @@
-/* Home: editorial opening with a burgundy circular portrait treatment, restrained orbit lines, and three identity signals. */
+/* Home: editorial opening with a burgundy circular portrait treatment, restrained orbit lines, and five clear identity signals. */
 import { useState } from "react";
 import { Link } from "wouter";
 import { ArrowDownRight, ArrowUpRight } from "lucide-react";
