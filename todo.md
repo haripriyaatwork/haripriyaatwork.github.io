@@ -116,3 +116,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Save the extracted Sportskeeda article titles and direct URLs before implementation.
 - [x] Add the articles under Work → Writing → Journalistic Writing → Sportskeeda.
 - [x] Validate Sportskeeda links and responsive archive presentation before checkpoint.
+
+- [x] Upload the supplied ResearchProposal-MediaFramingofGazaHaripriyaMishra.pdf as a persistent web asset.
+- [x] Add a viewable/downloadable research proposal card under Work → Academics.
+- [x] Preserve the original PDF without altering its contents.
+- [x] Validate PDF access and the Academics filter before checkpoint.
