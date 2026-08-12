@@ -111,3 +111,8 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Save the extracted article titles and direct URLs before implementation.
 - [x] Add the articles under Work → Writing → Journalistic Writing.
 - [x] Validate the article links and responsive archive presentation before checkpoint.
+
+- [x] Verify the Sportskeeda author profile and identify every article attributed to Haripriya Mishra.
+- [x] Save the extracted Sportskeeda article titles and direct URLs before implementation.
+- [x] Add the articles under Work → Writing → Journalistic Writing → Sportskeeda.
+- [x] Validate Sportskeeda links and responsive archive presentation before checkpoint.
