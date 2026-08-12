@@ -194,3 +194,9 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Tighten duplicate separators and section margins across Writing, Design, Academics, and All views.
 - [x] Preserve all archive cards, embeds, links, and actions.
 - [x] Validate representative filters and build before checkpoint.
+
+- [x] Update Resume page content from pasted_content_8.txt as the new source of truth.
+- [x] Reorder the trajectory chronologically from Science Tutor through full-time Account Manager.
+- [x] Separate Buzz Up Marketing from Adwise and show the part-time-to-full-time promotion clearly.
+- [x] Replace the old trajectory copy and stop labels with clearer, role-specific language.
+- [x] Validate all resume-derived details, layout, and build before checkpoint.
