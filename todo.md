@@ -380,3 +380,13 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 
 - [x] Move the compact Strategist button directly beneath and close to the portrait circle.
 - [x] Validate the new Strategist placement on desktop and mobile.
+
+
+- [ ] Remove the “The central idea” eyebrow label from the Home hero.
+- [ ] Preserve headline, portrait, identity buttons, and responsive spacing.
+- [ ] Validate the Home page after the label removal.
+
+
+- [x] Remove the “The central idea” eyebrow label from the Home hero.
+- [x] Preserve headline, portrait, identity buttons, and responsive spacing.
+- [x] Validate the Home page after the label removal.
