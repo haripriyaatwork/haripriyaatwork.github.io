@@ -74,3 +74,9 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add both Instagram carousels as visual Design archive pieces with public links and preview treatment.
 - [x] Keep the first carousel’s essay entry in Thinking while linking its visual design artifact from Work.
 - [x] Validate carousel cards and responsive Work layout before checkpoint.
+
+- [x] Verify the supplied LinkedIn static post and the three persona profile links.
+- [x] Add the LinkedIn post as a Design archive embed with a public source link.
+- [x] Add three factual personas under Who I Am: LinkedIn communication, Instagram creator/poet, and Substack essay thinking.
+- [x] Add the Instagram username, poetry themes, and 21-day writing challenge note without inventing timing.
+- [x] Validate embeds, external links, and responsive persona cards before checkpoint.
