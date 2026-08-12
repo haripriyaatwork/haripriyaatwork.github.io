@@ -177,3 +177,7 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Add the supplied Rusk Media LinkedIn post under Work → Design.
 - [x] Label the Design entry accurately as design and ideation support.
 - [x] Validate the LinkedIn links, filters, responsive cards, and build before checkpoint.
+
+- [x] Remove the “Stay tuned… / There is more to come.” closing block from Who I Am.
+- [x] Let the footer follow the persona content without adding replacement filler.
+- [x] Validate the Who I Am page and build before checkpoint.
