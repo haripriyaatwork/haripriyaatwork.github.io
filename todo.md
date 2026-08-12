@@ -239,3 +239,9 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Shorten the visible portrait at the palm while keeping the orbit fully visible.
 - [x] Remove Student and Journalist from the Home identity labels.
 - [x] Validate the revised Home hero and build before checkpoint.
+
+- [x] Treat the inner orbit as the portrait frame and center the portrait within it.
+- [x] Reposition or size the outer moving orbit so it does not cross the portrait face.
+- [x] Move COMMUNICATOR right to clear the forehead.
+- [x] Move POET inward toward the orbit system.
+- [x] Validate the refined Home composition and build before checkpoint.
