@@ -390,3 +390,13 @@ Completed in this revision: removed the duplicate platform list, removed Reddit 
 - [x] Remove the “The central idea” eyebrow label from the Home hero.
 - [x] Preserve headline, portrait, identity buttons, and responsive spacing.
 - [x] Validate the Home page after the label removal.
+
+
+- [ ] Remove Team Sirens and its college-assignment description from Work → Writing.
+- [ ] Remove Team Sirens and its college-assignment description from Work → Academics.
+- [ ] Validate that no Team Sirens references remain.
+
+
+- [x] Remove Team Sirens and its college-assignment description from Work → Writing.
+- [x] Remove Team Sirens and its college-assignment description from Work → Academics.
+- [x] Validate that no Team Sirens references remain.
