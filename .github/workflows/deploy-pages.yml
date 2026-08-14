@@ -36,8 +36,10 @@ jobs:
       - name: Build static site
         run: pnpm run build
 
-      - name: Add GitHub Pages marker
-        run: touch dist/public/.nojekyll
+      - name: Add GitHub Pages marker and SPA fallback
+        run: |
+          touch dist/public/.nojekyll
+          cp dist/public/index.html dist/public/404.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
