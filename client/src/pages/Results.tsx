@@ -19,8 +19,6 @@ const instagramScreenshots = [
   { title: "Diwali / Reel 1 Ad Insights", note: "52,295 paid views and 226 messaging conversations", src: "/manus-storage/reel-analytics-06_aae358bf.png" },
   { title: "Diwali / Reel 2 Combined Overview", note: "17,828 views, 11,362 reach, and 4 follows", src: "/manus-storage/reel-analytics-07_ef80ca6a.png" },
   { title: "Diwali / Reel 2 Ad Insights", note: "10,348 paid views and 10 messaging conversations", src: "/manus-storage/reel-analytics-08_cb6f849d.png" },
-  { title: "Delhi / Overall Reel Insights", note: "142,286 views and 81,997 reach", src: "/manus-storage/reel-analytics-09_de737d81.png" },
-  { title: "Delhi / Paid Ad Insights", note: "19,502 paid views and 183 profile visits", src: "/manus-storage/reel-analytics-10_83382c2c.png" },
 ];
 function ClientProof({ platform, title, description, image, alt, caption, stats, children }: { platform: string; title: React.ReactNode; description: string; image: string; alt: string; caption: string; stats: Array<{ value: string; label: string; note: string }>; children?: React.ReactNode }) {
   return <section className={`client-proof-section client-${platform.toLowerCase()}-proof`}><div className="section-heading"><div><span className="eyebrow">{platform} / Client performance</span><h2>{title}</h2></div><p>{description}</p></div><div className="client-proof-layout"><figure className="client-proof-figure"><img src={image} alt={alt} /><figcaption>{caption}</figcaption></figure><div className="client-proof-stats">{stats.map((stat) => <div key={`${stat.value}-${stat.label}`}><strong>{stat.value}</strong><span>{stat.label}</span><small>{stat.note}</small></div>)}</div></div>{children}</section>;
