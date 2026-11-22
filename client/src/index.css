@@ -238,3 +238,19 @@ body{font-size:16px}
 
 .timeline-scroll-hint{display:flex;justify-content:flex-end;gap:8px;margin:0 4px 12px;color:var(--muted);font-size:10px;letter-spacing:.12em;text-transform:uppercase}.timeline-scroll-hint span{color:var(--pink);font-size:16px;line-height:.7}.direct-email-link{display:inline-flex;align-items:center;gap:5px;color:var(--muted);font-size:11px;text-decoration:none}.direct-email-link:hover{color:var(--pink)}.direct-email-link strong{color:var(--foreground);font-weight:500}
 @media(max-width:650px){.trajectory-timeline{margin-top:30px;margin-left:-2px;margin-right:-2px}.timeline-scroll-hint{justify-content:flex-start;margin-bottom:10px}.trajectory-track{grid-template-columns:repeat(9,minmax(132px,1fr));min-width:1188px;height:300px}.timeline-label{width:108px}.timeline-label strong{font-size:14px}}
+
+
+/* First-visit colour welcome: black and white remain fixed while the accent mood changes. */
+.palette-picker{position:fixed;inset:0;z-index:190;display:grid;place-items:center;padding:24px;background:rgba(9,9,11,.82);backdrop-filter:blur(10px)}
+.palette-picker-card{width:min(620px,100%);padding:clamp(28px,6vw,64px);background:#111014;border:1px solid var(--pink);box-shadow:0 24px 90px rgba(0,0,0,.42);text-align:center}
+.palette-picker-card h2{font:400 clamp(2.8rem,7vw,5.8rem)/.9 "Playfair Display",serif;letter-spacing:-.05em;margin:20px 0}
+.palette-picker-card h2 em{color:var(--pink);font-style:normal}
+.palette-picker-card>p{max-width:430px;margin:0 auto;color:var(--muted);font-size:15px;line-height:1.6}
+.palette-options{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:34px}
+.palette-option{min-height:125px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:12px;padding:14px;border:1px solid var(--line);background:rgba(255,255,255,.025);color:var(--foreground);text-align:left;transition:transform .18s var(--ease),border-color .18s var(--ease),background .18s var(--ease)}
+.palette-option:hover,.palette-option:focus-visible{transform:translateY(-5px);border-color:var(--pink);background:rgba(255,255,255,.06);outline:none}
+.palette-option strong{font:20px/1 "Playfair Display",serif;font-weight:400}
+.palette-option svg{align-self:flex-end;color:var(--pink)}
+.palette-swatch{width:30px;height:30px;border-radius:50%;border:2px solid rgba(255,255,255,.7)}
+.palette-note{display:block;margin-top:24px;color:var(--muted);font-size:11px;letter-spacing:.08em}
+@media(max-width:600px){.palette-picker{padding:16px}.palette-picker-card{padding:30px 20px}.palette-options{grid-template-columns:repeat(2,1fr)}.palette-option{min-height:105px}.palette-picker-card>p{font-size:14px}}
