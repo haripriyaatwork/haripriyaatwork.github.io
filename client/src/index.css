@@ -257,3 +257,16 @@ body{font-size:16px}
 
 .footer-meta{display:flex;flex-direction:column;align-items:flex-end;gap:14px}.palette-reopen{border:0;border-bottom:1px solid var(--pink);background:transparent;color:var(--pink);padding:0 0 4px;text-transform:uppercase;font:700 10px/1 "DM Sans",sans-serif;letter-spacing:.12em}.palette-reopen:hover{color:var(--foreground)}
 @media(max-width:800px){.footer-meta{align-items:flex-start;margin-top:25px}}
+
+
+/* Minimal welcome palette: black canvas, one centered question, and four clean colour strips. */
+.palette-picker{background:#000;padding:24px;backdrop-filter:none}
+.palette-picker-card{width:min(760px,100%);padding:0;background:transparent;border:0;box-shadow:none;text-align:center}
+.palette-picker-card h2{font:400 clamp(1.45rem,3vw,2.35rem)/1.1 "Playfair Display",serif;letter-spacing:-.025em;margin:0 0 34px;color:#fff}
+.palette-picker-card h2 em{color:#fff}
+.palette-options{display:flex;width:100%;gap:0;margin:0}
+.palette-option{flex:1;height:18px;min-height:18px;padding:0;border:0;background:transparent;display:block;transition:transform .2s var(--ease),filter .2s var(--ease)}
+.palette-option:hover,.palette-option:focus-visible{transform:scaleY(1.5);filter:brightness(1.12);background:transparent;outline:none}
+.palette-swatch{display:block;width:100%;height:100%;border:0;border-radius:0;box-shadow:none!important}
+.palette-note{display:none}
+@media(max-width:600px){.palette-picker{padding:18px}.palette-picker-card h2{margin-bottom:26px}.palette-option{height:14px;min-height:14px}}

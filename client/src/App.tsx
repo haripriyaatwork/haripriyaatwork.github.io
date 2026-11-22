@@ -71,7 +71,7 @@ function HeartCursor() {
 }
 
 function PalettePicker({ onChoose }: { onChoose: (paletteId: string) => void }) {
-  return <div className="palette-picker" role="dialog" aria-modal="true" aria-labelledby="palette-title"><div className="palette-picker-card"><span className="eyebrow">A tiny question before we begin</span><h2 id="palette-title">Hi, sunshine.<br /><em>What’s your favourite colour?</em></h2><p>Choose the accent that feels most like you. The black and white stay — only the energy changes.</p><div className="palette-options">{palettes.map((palette) => <button key={palette.id} className="palette-option" type="button" onClick={() => onChoose(palette.id)}><span className="palette-swatch" style={{ background: palette.color, boxShadow: `0 0 24px ${palette.color}66` }} /><strong>{palette.label}</strong><ArrowUpRight size={15} /></button>)}</div><span className="palette-note">You can change this later.</span></div></div>;
+  return <div className="palette-picker" role="dialog" aria-modal="true" aria-labelledby="palette-title"><div className="palette-picker-card"><h2 id="palette-title">Hi, sunshine. What’s your favourite colour?</h2><div className="palette-options">{palettes.map((palette) => <button key={palette.id} className="palette-option" type="button" aria-label={`Choose ${palette.label}`} onClick={() => onChoose(palette.id)}><span className="palette-swatch" style={{ background: palette.color }} /></button>)}</div></div></div>;
 }
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
