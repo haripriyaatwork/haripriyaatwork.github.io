@@ -73,6 +73,38 @@
 /* Resume skills: grouped clusters create hierarchy without turning the section into a flat tag wall. */
 .resume-skill-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);margin-top:24px}.resume-skill-group{background:var(--background);padding:24px;min-height:150px}.resume-skill-group>span{display:block;margin-bottom:22px}.resume-skill-group>div{display:flex;flex-wrap:wrap;gap:8px}.resume-skill-group>div span{border-bottom:1px solid rgba(216,91,120,.5);padding:0 0 4px;color:var(--foreground);font-size:12px;line-height:1.3}.resume-skill-group>div span:hover{color:var(--pink)}@media(max-width:650px){.resume-skill-groups{grid-template-columns:1fr}.resume-skill-group{min-height:0}}
 
+/* Typography accessibility pass: preserve the editorial scale while improving small-text legibility. */
+:root{--text-min:12px;--text-reading:16px}
+body{font-size:16px}
+.nav-link{font-size:11px}
+.nav-link span,.project-number{font-size:10px}
+.nav-cta,.button{font-size:11px}
+.rail-label{font-size:9px}
+.eyebrow{font-size:11px}
+.hero-kicker{font-size:11px}
+.orbit-label{font-size:11px}
+.text-link{font-size:11px}
+.skill-tab,.filter{font-size:11px}
+.archive-teaser span,.persona-card>span,.persona-platform{font-size:11px}
+.empty-state strong{font-size:11px}
+.empty-state p{font-size:12px}
+.archive-card p,.case-grid p,.metric-story p{font-size:13px}
+.writing-index span:not(.eyebrow),.persona-note{font-size:11px}
+.form-success{font-size:12px}
+.connect-form label{font-size:11px}
+.site-footer{font-size:11px}
+.footer-nav{font-size:12px}
+.trajectory-index,.trajectory-date,.trajectory-company{font-size:11px}
+.experience-row span,.experience-row>span,.education-grid span,.education-grid small{font-size:12px}
+.experience-row p,.project-proof-grid p{font-size:13px}
+@media(max-width:800px){
+  .nav-link{font-size:12px}
+  .nav-link span,.project-number{font-size:10px}
+  .hero-kicker{font-size:10px}
+  .archive-card p,.case-grid p,.metric-story p{font-size:13px}
+  .resume-download-top{font-size:10px}
+}
+
 /* Thinking poetry placeholder: a quiet, literary holding space for the user’s future poems. */
 .poetry-ready-note{margin-top:28px;max-width:34rem;border-top:1px solid var(--pink);padding-top:18px}.poetry-ready-note span{font-size:10px;letter-spacing:.16em;color:var(--pink)}.poetry-ready-note p{margin-top:14px;color:var(--muted);line-height:1.7}.poetry-ready-card{min-height:220px}
 
