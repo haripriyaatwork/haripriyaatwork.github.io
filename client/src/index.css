@@ -105,6 +105,16 @@ body{font-size:16px}
   .resume-download-top{font-size:10px}
 }
 
+/* Desktop pointer detail: a small neon-pink heart follows the pointer without blocking clicks. */
+@media (hover:hover) and (pointer:fine) and (min-width:801px) and (prefers-reduced-motion:no-preference){
+  body{cursor:none}
+  a,button,input,textarea{cursor:none}
+  .heart-cursor{position:fixed;z-index:100;pointer-events:none;transform:translate(-50%,-50%) scale(.72);font-family:Arial,sans-serif;font-size:22px;line-height:1;color:#ff4f88;opacity:0;text-shadow:0 0 5px #ffb1c7,0 0 14px #ff4f88,0 0 28px rgba(255,79,136,.9);transition:opacity .18s ease,transform .18s ease;will-change:left,top,transform}
+  .heart-cursor.is-visible{opacity:1;transform:translate(-50%,-50%) scale(1)}
+  a:hover~.heart-cursor,button:hover~.heart-cursor{transform:translate(-50%,-50%) scale(1.2)}
+}
+@media (hover:none),(pointer:coarse),(max-width:800px),(prefers-reduced-motion:reduce){.heart-cursor{display:none}}
+
 /* Thinking poetry placeholder: a quiet, literary holding space for the user’s future poems. */
 .poetry-ready-note{margin-top:28px;max-width:34rem;border-top:1px solid var(--pink);padding-top:18px}.poetry-ready-note span{font-size:10px;letter-spacing:.16em;color:var(--pink)}.poetry-ready-note p{margin-top:14px;color:var(--muted);line-height:1.7}.poetry-ready-card{min-height:220px}
 
