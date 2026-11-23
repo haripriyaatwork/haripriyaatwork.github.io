@@ -1,7 +1,7 @@
 /* App shell: clean editorial navigation with no numeric prefixes; the final Connect destination is presented once as Let's Talk. */
 import { Route, Switch, Link, useLocation } from "wouter";
 import { Menu, X, ArrowUpRight } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Home from "./pages/Home";
 import WhoIAm from "./pages/WhoIAm";
 import Work from "./pages/Work";
@@ -25,10 +25,10 @@ export const navItems = [
 ];
 
 const palettes = [
-  { id: "pink", label: "Pink", color: "#d95b79", deep: "#6d263e", rgb: "217,91,121" },
-  { id: "orange", label: "Orange", color: "#e27b52", deep: "#74351f", rgb: "226,123,82" },
-  { id: "yellow", label: "Yellow", color: "#d7ac4d", deep: "#6d5420", rgb: "215,172,77" },
-  { id: "blue", label: "Blue / Purple", color: "#7c73e6", deep: "#322d72", rgb: "124,115,230" },
+  { id: "pink", label: "Pink", color: "#d95b79", deep: "#6d263e", rgb: "217,91,121", deepRgb: "109,38,62" },
+  { id: "orange", label: "Orange", color: "#e27b52", deep: "#74351f", rgb: "226,123,82", deepRgb: "116,53,31" },
+  { id: "yellow", label: "Yellow", color: "#d7ac4d", deep: "#6d5420", rgb: "215,172,77", deepRgb: "109,84,32" },
+  { id: "blue", label: "Blue / Purple", color: "#7c73e6", deep: "#322d72", rgb: "124,115,230", deepRgb: "50,45,114" },
 ];
 
 export function EmptyState({ label = "CONTENT TO BE PROVIDED", detail = "This space is designed and ready for the real material." }: { label?: string; detail?: string }) {
@@ -40,12 +40,12 @@ function HeartCursor({ pickerOpen = false }: { pickerOpen?: boolean }) {
   const [trail, setTrail] = useState<{ x: number; y: number }[]>([]);
   const [visible, setVisible] = useState(false);
   const [hovering, setHovering] = useState(false);
+  const targetPosition = useRef({ x: -100, y: -100 });
 
   useEffect(() => {
     const handlePointerMove = (event: PointerEvent) => {
       if (event.pointerType === "touch") return;
-      setPosition({ x: event.clientX, y: event.clientY });
-      setTrail((current) => [{ x: event.clientX, y: event.clientY }, ...current].slice(0, 7));
+      targetPosition.current = { x: event.clientX, y: event.clientY };
       setVisible(true);
     };
     const handlePointerOver = (event: PointerEvent) => {
@@ -55,6 +55,15 @@ function HeartCursor({ pickerOpen = false }: { pickerOpen?: boolean }) {
       if (!(event.relatedTarget as HTMLElement | null)?.closest?.("a, button, input, textarea, [role='button']")) setHovering(false);
     };
     const handlePointerLeave = () => setVisible(false);
+    let rendered = { ...targetPosition.current };
+    let animationFrame = 0;
+    const animate = () => {
+      rendered = { x: rendered.x + (targetPosition.current.x - rendered.x) * 0.2, y: rendered.y + (targetPosition.current.y - rendered.y) * 0.2 };
+      setPosition(rendered);
+      setTrail((current) => [{ x: rendered.x, y: rendered.y }, ...current].slice(0, 12));
+      animationFrame = window.requestAnimationFrame(animate);
+    };
+    animationFrame = window.requestAnimationFrame(animate);
     window.addEventListener("pointermove", handlePointerMove, { passive: true });
     window.addEventListener("pointerover", handlePointerOver, { passive: true });
     window.addEventListener("pointerout", handlePointerOut, { passive: true });
@@ -64,10 +73,11 @@ function HeartCursor({ pickerOpen = false }: { pickerOpen?: boolean }) {
       window.removeEventListener("pointerover", handlePointerOver);
       window.removeEventListener("pointerout", handlePointerOut);
       document.documentElement.removeEventListener("mouseleave", handlePointerLeave);
+      window.cancelAnimationFrame(animationFrame);
     };
   }, []);
 
-  return <><span className={`heart-trail${visible ? " is-visible" : ""}`} aria-hidden="true">{trail.map((point, index) => <i key={`${point.x}-${point.y}-${index}`} style={{ left: point.x, top: point.y, opacity: (7 - index) / 16, transform: `translate(-50%, -50%) scale(${(7 - index) / 18})` }}>♥</i>)}</span><span className={`heart-cursor${visible ? " is-visible" : ""}${hovering ? " is-hovering" : ""}${pickerOpen ? " is-picker" : ""}`} style={{ left: position.x, top: position.y }} aria-hidden="true">♥</span></>;
+  return <><span className={`heart-trail${visible ? " is-visible" : ""}`} aria-hidden="true">{trail.map((point, index) => <i key={`${point.x}-${point.y}-${index}`} style={{ left: point.x, top: point.y, opacity: (12 - index) / 30, transform: `translate(-50%, -50%) scale(${(12 - index) / 16})` }}>♥</i>)}</span><span className={`heart-cursor${visible ? " is-visible" : ""}${hovering ? " is-hovering" : ""}${pickerOpen ? " is-picker" : ""}`} style={{ left: position.x, top: position.y }} aria-hidden="true">♥</span></>;
 }
 
 function PalettePicker({ onChoose }: { onChoose: (paletteId: string) => void }) {
@@ -81,7 +91,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   const [paletteId, setPaletteId] = useState("pink");
   const [showPalettePicker, setShowPalettePicker] = useState(true);
   useEffect(() => { const timer = window.setTimeout(() => setLoading(false), 900); return () => window.clearTimeout(timer); }, []);
-  useEffect(() => { const palette = palettes.find((item) => item.id === paletteId) || palettes[0]; document.documentElement.dataset.palette = palette.id; document.documentElement.style.setProperty("--pink", palette.color); document.documentElement.style.setProperty("--rose", palette.color); document.documentElement.style.setProperty("--deep", palette.deep); document.documentElement.style.setProperty("--pink-rgb", palette.rgb); }, [paletteId]);
+  useEffect(() => { const palette = palettes.find((item) => item.id === paletteId) || palettes[0]; document.documentElement.dataset.palette = palette.id; document.documentElement.style.setProperty("--pink", palette.color); document.documentElement.style.setProperty("--rose", palette.color); document.documentElement.style.setProperty("--deep", palette.deep); document.documentElement.style.setProperty("--pink-rgb", palette.rgb); document.documentElement.style.setProperty("--deep-rgb", palette.deepRgb); }, [paletteId]);
   const choosePalette = (nextPaletteId: string) => { setPaletteId(nextPaletteId); setShowPalettePicker(false); };
   return <div className="site-shell"><HeartCursor pickerOpen={showPalettePicker && !loading} />{loading && <div className="site-loader" role="status" aria-label="Loading portfolio"><div className="loader-heart">♥</div><span>HARIPRIYA AT WORK</span></div>}{showPalettePicker && !loading && <PalettePicker onChoose={choosePalette} />}<header className="site-header"><Link href="/" className="brand-lockup" onClick={() => setOpen(false)}><span>HARIPRIYA<br /><b>MISHRA</b></span></Link><button className="menu-toggle" aria-label="Toggle navigation" onClick={() => setOpen(!open)}>{open ? <X size={20} /> : <Menu size={20} />}</button><nav className={open ? "main-nav is-open" : "main-nav"}>{navItems.map((item) => <Link key={item.href} href={item.href} onClick={() => setOpen(false)} className={item.cta ? "nav-cta" : location === item.href ? "nav-link active" : "nav-link"}>{item.label}{item.cta && <ArrowUpRight size={14} />}</Link>)}</nav></header><main>{children}</main><footer className="site-footer"><div><span className="eyebrow">Haripriya Mishra</span><p>Communicator · Writer · Researcher · Strategist · Creator</p></div><div className="footer-nav">{navItems.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}</div><div className="footer-meta"><button className="palette-reopen" type="button" onClick={() => setShowPalettePicker(true)}>Change colour</button><small>© 2026 Haripriya Mishra</small></div></footer></div>;
 }
