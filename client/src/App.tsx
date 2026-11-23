@@ -25,10 +25,10 @@ export const navItems = [
 ];
 
 const palettes = [
-  { id: "pink", label: "Pink", color: "#d95b79", deep: "#6d263e" },
-  { id: "orange", label: "Orange", color: "#e27b52", deep: "#74351f" },
-  { id: "yellow", label: "Yellow", color: "#d7ac4d", deep: "#6d5420" },
-  { id: "blue", label: "Blue / Purple", color: "#7c73e6", deep: "#322d72" },
+  { id: "pink", label: "Pink", color: "#d95b79", deep: "#6d263e", rgb: "217,91,121" },
+  { id: "orange", label: "Orange", color: "#e27b52", deep: "#74351f", rgb: "226,123,82" },
+  { id: "yellow", label: "Yellow", color: "#d7ac4d", deep: "#6d5420", rgb: "215,172,77" },
+  { id: "blue", label: "Blue / Purple", color: "#7c73e6", deep: "#322d72", rgb: "124,115,230" },
 ];
 
 export function EmptyState({ label = "CONTENT TO BE PROVIDED", detail = "This space is designed and ready for the real material." }: { label?: string; detail?: string }) {
@@ -81,7 +81,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   const [paletteId, setPaletteId] = useState(() => window.localStorage.getItem("haripriya-palette") || "pink");
   const [showPalettePicker, setShowPalettePicker] = useState(() => !window.localStorage.getItem("haripriya-palette-chosen"));
   useEffect(() => { const timer = window.setTimeout(() => setLoading(false), 900); return () => window.clearTimeout(timer); }, []);
-  useEffect(() => { const palette = palettes.find((item) => item.id === paletteId) || palettes[0]; document.documentElement.dataset.palette = palette.id; document.documentElement.style.setProperty("--pink", palette.color); document.documentElement.style.setProperty("--rose", palette.color); document.documentElement.style.setProperty("--deep", palette.deep); }, [paletteId]);
+  useEffect(() => { const palette = palettes.find((item) => item.id === paletteId) || palettes[0]; document.documentElement.dataset.palette = palette.id; document.documentElement.style.setProperty("--pink", palette.color); document.documentElement.style.setProperty("--rose", palette.color); document.documentElement.style.setProperty("--deep", palette.deep); document.documentElement.style.setProperty("--pink-rgb", palette.rgb); }, [paletteId]);
   const choosePalette = (nextPaletteId: string) => { setPaletteId(nextPaletteId); window.localStorage.setItem("haripriya-palette", nextPaletteId); window.localStorage.setItem("haripriya-palette-chosen", "true"); setShowPalettePicker(false); };
   return <div className="site-shell"><HeartCursor />{loading && <div className="site-loader" role="status" aria-label="Loading portfolio"><div className="loader-heart">♥</div><span>HARIPRIYA AT WORK</span></div>}{showPalettePicker && !loading && <PalettePicker onChoose={choosePalette} />}<header className="site-header"><Link href="/" className="brand-lockup" onClick={() => setOpen(false)}><span>HARIPRIYA<br /><b>MISHRA</b></span></Link><button className="menu-toggle" aria-label="Toggle navigation" onClick={() => setOpen(!open)}>{open ? <X size={20} /> : <Menu size={20} />}</button><nav className={open ? "main-nav is-open" : "main-nav"}>{navItems.map((item) => <Link key={item.href} href={item.href} onClick={() => setOpen(false)} className={item.cta ? "nav-cta" : location === item.href ? "nav-link active" : "nav-link"}>{item.label}{item.cta && <ArrowUpRight size={14} />}</Link>)}</nav></header><main>{children}</main><footer className="site-footer"><div><span className="eyebrow">Haripriya Mishra</span><p>Communicator · Writer · Researcher · Strategist · Creator</p></div><div className="footer-nav">{navItems.map((item) => <Link key={item.href} href={item.href}>{item.label}</Link>)}</div><div className="footer-meta"><button className="palette-reopen" type="button" onClick={() => setShowPalettePicker(true)}>Change colour</button><small>© 2026 Haripriya Mishra</small></div></footer></div>;
 }
