@@ -67,11 +67,11 @@ function HeartCursor({ pickerOpen = false }: { pickerOpen?: boolean }) {
     };
   }, []);
 
-  return <><span className={`heart-trail${visible ? " is-visible" : ""}`} aria-hidden="true">{trail.map((point, index) => <i key={`${point.x}-${point.y}-${index}`} style={{ left: point.x, top: point.y, opacity: (7 - index) / 16, transform: `translate(-50%, -50%) scale(${(7 - index) / 18})` }}>♥</i>)}</span><span className={`heart-cursor${visible ? " is-visible" : ""}${hovering ? " is-hovering" : ""}${pickerOpen ? " is-picker" : ""}`} style={{ left: position.x, top: position.y }} aria-hidden="true">{pickerOpen ? "➤" : "♥"}</span></>;
+  return <><span className={`heart-trail${visible ? " is-visible" : ""}`} aria-hidden="true">{trail.map((point, index) => <i key={`${point.x}-${point.y}-${index}`} style={{ left: point.x, top: point.y, opacity: (7 - index) / 16, transform: `translate(-50%, -50%) scale(${(7 - index) / 18})` }}>♥</i>)}</span><span className={`heart-cursor${visible ? " is-visible" : ""}${hovering ? " is-hovering" : ""}${pickerOpen ? " is-picker" : ""}`} style={{ left: position.x, top: position.y }} aria-hidden="true">♥</span></>;
 }
 
 function PalettePicker({ onChoose }: { onChoose: (paletteId: string) => void }) {
-  return <div className="palette-picker" role="dialog" aria-modal="true" aria-labelledby="palette-title"><div className="palette-picker-card"><h2 id="palette-title">Hello, Human! Tell me you favourite colour</h2><div className="palette-options">{palettes.map((palette) => <button key={palette.id} className="palette-option" type="button" aria-label={`Choose ${palette.label}`} onClick={() => onChoose(palette.id)}><span className="palette-swatch" style={{ background: palette.color }} /></button>)}</div></div></div>;
+  return <div className="palette-picker" role="dialog" aria-modal="true" aria-labelledby="palette-title"><div className="palette-picker-card"><h2 id="palette-title">Hello, Human! Tell me you favourite colour</h2><div className="palette-options">{palettes.map((palette) => <button key={palette.id} className="palette-option" type="button" aria-label={`Choose ${palette.label}`} onClick={() => onChoose(palette.id)}><span className="palette-swatch" style={{ backgroundColor: palette.color }} /></button>)}</div></div></div>;
 }
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
