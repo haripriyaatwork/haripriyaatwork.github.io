@@ -272,3 +272,13 @@ body{font-size:16px}
 @media(max-width:600px){.palette-picker{padding:18px}.palette-picker-card h2{margin-bottom:26px}.palette-option{height:14px;min-height:14px}}
 
 :root{--pink-rgb:217,91,121}
+
+/* Current welcome interaction: four circular swatches, a visible white pointer, and touch-sized footer control. */
+.palette-options{display:flex;align-items:center;justify-content:center;gap:18px;margin:0}
+.palette-option{flex:0 0 58px;width:58px;height:58px;min-height:58px;padding:0;border:0;border-radius:50%;background:transparent;display:grid;place-items:center;transition:transform .2s var(--ease),filter .2s var(--ease)}
+.palette-option:hover,.palette-option:focus-visible{transform:scale(1.14);filter:brightness(1.12);background:transparent;outline:none}
+.palette-swatch{display:block;width:100%;height:100%;border:0;border-radius:50%;box-shadow:none!important}
+.palette-picker-card h2{margin-bottom:32px}
+.palette-reopen{min-height:44px;padding:12px 0 8px}
+@media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){.heart-cursor.is-picker{z-index:250;display:block;color:#fff;font-size:24px;opacity:1;filter:drop-shadow(0 1px 3px #000);text-shadow:0 1px 3px #000;transform:translate(-2px,-2px) scale(1)}.heart-cursor.is-picker.is-hovering{transform:translate(-2px,-2px) scale(1.08)}}
+@media(max-width:600px){.palette-picker{padding:20px}.palette-picker-card h2{font-size:clamp(1.55rem,7vw,2.2rem);margin-bottom:28px}.palette-options{gap:10px}.palette-option{flex-basis:54px;width:54px;height:54px;min-height:54px}.palette-reopen{font-size:10px;min-height:48px;padding:14px 0 10px}}
