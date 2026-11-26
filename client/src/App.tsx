@@ -115,17 +115,10 @@ function PalettePicker({ onChoose }: { onChoose: (paletteId: string, event: Mous
 
   return <div className="palette-picker" role="dialog" aria-modal="true" aria-labelledby="palette-title">
     <div className="palette-picker-card" ref={dialogRef}>
-      <span className="palette-kicker">A SMALL FIRST CHOICE</span>
-      <h2 id="palette-title">
-        <span className="sr-only">Before we begin, choose a colour that feels like you.</span>
-        <span className="palette-title-line" aria-hidden="true">{["Before", "we begin,"].map((word, index) => <span className="palette-title-word" style={{ "--word-delay": `${160 + index * 120}ms` } as CSSProperties} key={word}>{word}</span>)}</span>
-        <span className="palette-title-line palette-title-line--accent" aria-hidden="true">{["choose a colour", "that feels like you."].map((word, index) => <span className="palette-title-word" style={{ "--word-delay": `${400 + index * 120}ms` } as CSSProperties} key={word}>{word}</span>)}</span>
-      </h2>
-      <p className="palette-instruction">Pick a shade to set the mood. Your space will bloom into it.</p>
+      <h2 id="palette-title">Hi Human! Choose your favourite colour...</h2>
       <div className="palette-options">
         {palettes.map((palette, index) => <button key={palette.id} className="palette-option" style={{ "--swatch-delay": `${620 + index * 110}ms` } as CSSProperties} type="button" aria-label={`Choose ${palette.label}`} onClick={(event) => onChoose(palette.id, event)}><span className="palette-swatch" style={{ backgroundColor: palette.color }} /></button>)}
       </div>
-      <span className="palette-hint" aria-hidden="true">Choose your colour to enter</span>
     </div>
   </div>;
 }
@@ -133,7 +126,6 @@ function PalettePicker({ onChoose }: { onChoose: (paletteId: string, event: Mous
 function PaletteTransition({ style, onComplete }: { style: CSSProperties; onComplete: () => void }) {
   return <div className="palette-transition" role="status" aria-label="Revealing your colour palette" onAnimationEnd={(event) => { if (event.target === event.currentTarget) onComplete(); }}>
     <span className="palette-transition-orb" style={style} aria-hidden="true" />
-    <span className="palette-transition-copy" aria-hidden="true">Your colour. Your canvas.</span>
   </div>;
 }
 
