@@ -383,7 +383,6 @@ body{font-size:16px}
 @media(max-width:420px){.article-booklet-cover{min-height:250px;padding-right:1.1rem}.article-booklet-title{font-size:1.35rem}.article-booklet-description{max-width:26ch}.article-booklet-page-top{font-size:.55rem}.article-booklet-page-nav{font-size:.55rem}.article-booklet-page-nav button{font-size:.62rem}}
 
 
-/* Thinking page: three writing collections presented as the same responsive booklet shelf. */
-.thinking-booklet-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:3rem}
-@media(max-width:1050px){.thinking-booklet-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Thinking page: restore the larger two-column proportions of the original booklet shelf. */
+.thinking-booklet-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:3rem}
 @media(max-width:760px){.thinking-booklet-grid{grid-template-columns:1fr}.thinking-booklet-grid .article-booklet-cover{min-height:270px}}
